@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render card correctly 1`] = `
+<div
+  className="product-card"
+>
+  <div
+    className="image"
+  >
+    <img
+      alt="Iphone"
+      data-testid="img"
+      src="/imgs/products/iphone.png"
+    />
+  </div>
+  <span
+    className="m-t-32"
+    data-testid="name"
+  >
+    Iphone
+  </span>
+  <span
+    className="m-t-8 -text-bold"
+    data-testid="price"
+  >
+    $1,000.00
+  </span>
+  <div
+    className="actions m-t-32"
+  >
+    <button
+      className="-custom-btn m-r-16 "
+      data-testid="moreInfoBtn"
+      onClick={[Function]}
+    >
+      More info
+    </button>
+    <button
+      className="-custom-btn undefined -primary"
+      data-testid="addToCartBtn"
+      onClick={[Function]}
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render detail correctly 1`] = `
+<div
+  className="product-info"
+>
+  <div
+    className="image m-r-16"
+  >
+    <img
+      alt="Iphone"
+      data-testid="img"
+      src="/imgs/products/iphone.png"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="name-and-price"
+    >
+      <span
+        className="-text-medium"
+        data-testid="name"
+      >
+        Iphone
+      </span>
+      <span
+        data-testid="price"
+      >
+        $1,000.00
+      </span>
+    </div>
+    <p
+      data-testid="des"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia doloremque architecto quia aliquam? Assumenda a, ipsam quidem enim neque saepe corrupti, fugiat exercitationem vero, optio dolorem alias maxime dolore omnis.
+    </p>
+  </div>
+</div>
+`;

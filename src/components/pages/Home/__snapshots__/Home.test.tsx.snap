@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render home correctly 1`] = `
+<div
+  className="home-page"
+>
+  <div
+    className="-container"
+  >
+    <p
+      className="-text-medium"
+    >
+      Recommend
+    </p>
+    <div
+      className="product-list -card"
+    >
+      <div
+        className="product-card"
+      >
+        <div
+          className="image"
+        >
+          <img
+            alt="Iphone"
+            data-testid="img"
+            src="/imgs/products/iphone.png"
+          />
+        </div>
+        <span
+          className="m-t-32"
+          data-testid="name"
+        >
+          Iphone
+        </span>
+        <span
+          className="m-t-8 -text-bold"
+          data-testid="price"
+        >
+          $1,000.00
+        </span>
+        <div
+          className="actions m-t-32"
+        >
+          <button
+            className="-custom-btn m-r-16 "
+            data-testid="moreInfoBtn"
+            onClick={[Function]}
+          >
+            More info
+          </button>
+          <button
+            className="-custom-btn undefined -primary"
+            data-testid="addToCartBtn"
+            onClick={[Function]}
+          >
+            Add to cart
+          </button>
+        </div>
+      </div>
+      <div
+        className="product-card"
+      >
+        <div
+          className="image"
+        >
+          <img
+            alt="Macbook pro 14 inch 2021 32gb"
+            data-testid="img"
+            src="/imgs/products/macbook.jpg"
+          />
+        </div>
+        <span
+          className="m-t-32"
+          data-testid="name"
+        >
+          Macbook pro 14 inch 2021 32gb
+        </span>
+        <span
+          className="m-t-8 -text-bold"
+          data-testid="price"
+        >
+          $2,000.00
+        </span>
+        <div
+          className="actions m-t-32"
+        >
+          <button
+            className="-custom-btn m-r-16 "
+            data-testid="moreInfoBtn"
+            onClick={[Function]}
+          >
+            More info
+          </button>
+          <button
+            className="-custom-btn undefined -primary"
+            data-testid="addToCartBtn"
+            onClick={[Function]}
+          >
+            Add to cart
+          </button>
+        </div>
+      </div>
+      <div
+        className="product-card"
+      >
+        <div
+          className="image"
+        >
+          <img
+            alt="Watch"
+            data-testid="img"
+            src="/imgs/products/watch.jpg"
+          />
+        </div>
+        <span
+          className="m-t-32"
+          data-testid="name"
+        >
+          Watch
+        </span>
+        <span
+          className="m-t-8 -text-bold"
+          data-testid="price"
+        >
+          $500.00
+        </span>
+        <div
+          className="actions m-t-32"
+        >
+          <button
+            className="-custom-btn m-r-16 "
+            data-testid="moreInfoBtn"
+            onClick={[Function]}
+          >
+            More info
+          </button>
+          <button
+            className="-custom-btn undefined -primary"
+            data-testid="addToCartBtn"
+            onClick={[Function]}
+          >
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -15,7 +15,7 @@ import { IProps } from './type.d'
 import './style.scss'
 
 const ProductDetailTemplate: FC<IProps> = (): JSX.Element => {
-  const params: { id: string } = useParams()
+  const params = useParams()
   const dispatch: any = useDispatch()
 
   const [product, setProduct] = useState<Product.Infor | undefined>()

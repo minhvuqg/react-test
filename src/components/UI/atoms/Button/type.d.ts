@@ -7,5 +7,5 @@ export interface IProps
     >,
     React.AriaAttributes {
   children: string | React.ReactNode
-  primary: boolean
+  primary?: boolean
 }

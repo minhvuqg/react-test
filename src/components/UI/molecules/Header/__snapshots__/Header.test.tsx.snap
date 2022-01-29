@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render header correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="-container"
+  >
+    <div
+      className="logo"
+    >
+      <a
+        data-testid="logo"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Logo"
+          src="/imgs/logo.png"
+        />
+      </a>
+    </div>
+    <div
+      className="link-list"
+    >
+      <a
+        className="p-r-16 -text-link"
+        data-testid="home"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="-text-link"
+        data-testid="cart"
+        href="/cart"
+        onClick={[Function]}
+      >
+        Cart
+      </a>
+    </div>
+  </div>
+</header>
+`;

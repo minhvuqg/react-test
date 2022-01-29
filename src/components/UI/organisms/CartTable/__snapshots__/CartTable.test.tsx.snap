@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render cart correctly 1`] = `
+<table
+  className="cart-table"
+>
+  <thead>
+    <tr>
+      <td>
+        Product name
+      </td>
+      <td
+        className="-text-center"
+      >
+        Quantity
+      </td>
+      <td
+        className="-text-right"
+      >
+        Price
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="total-row"
+    >
+      <td
+        className="-text-right"
+        colSpan={3}
+      >
+        Total: 
+        $0.00
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render button correctly 1`] = `
+<button
+  className="-custom-btn undefined "
+  data-testid="addToCartBtn"
+  onClick={[Function]}
+>
+  Label
+</button>
+`;
+
+exports[`render primary button correctly 1`] = `
+<button
+  className="-custom-btn undefined -primary"
+  data-testid="addToCartBtn"
+  onClick={[Function]}
+>
+  Label
+</button>
+`;

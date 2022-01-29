@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render cart correctly 1`] = `
+<p
+  className="-text-center -text-medium"
+>
+  There are no products in your cart
+</p>
+`;

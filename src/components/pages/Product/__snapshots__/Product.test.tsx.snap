@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render product correctly 1`] = `
+<div
+  className="product-page"
+>
+  <div
+    className="-container -card"
+  >
+    <div>
+      Not found
+    </div>
+  </div>
+</div>
+`;
