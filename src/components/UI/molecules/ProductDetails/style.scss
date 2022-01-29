@@ -1,0 +1,23 @@
+.product-info {
+  display: flex;
+  width: 70%;
+
+  .image {
+    flex: 1;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .info {
+    flex: 1;
+  }
+
+  .name-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -24,16 +24,21 @@ cd react-testing
 
 ```
 yarn install
-```
 
 #### Start
 
 ```
+
 yarn start
+
 ```
 
 #### Run test
 
 ```
+
 yarn test --watchAll
+
+```
+
 ```

@@ -1,0 +1,15 @@
+.quantity-actions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  max-width: 100px;
+
+  button {
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+}

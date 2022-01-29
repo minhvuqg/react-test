@@ -1,0 +1,49 @@
+@import 'scss/var/color.scss';
+
+.header {
+  width: 100vw;
+  background-color: $primary-color;
+
+  > .-container {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    justify-content: space-between;
+    padding: 0 32px;
+
+    .logo {
+      width: 32px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .-text-link {
+      color: #fff;
+      position: relative;
+      margin: auto;
+      padding: 3px 5px;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        transform-origin: bottom right;
+        transition: transform 0.4s ease-in-out;
+      }
+      &:hover {
+        cursor: pointer;
+        &:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+    }
+  }
+}

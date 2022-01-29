@@ -1,0 +1,39 @@
+@import './../var/color';
+
+.-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.-card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #f6f6f6;
+  padding: 32px;
+}
+
+.-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.-text-link {
+  color: $base-text-color;
+  text-decoration: none;
+}
+
+.-text-bold {
+  font-weight: bold;
+}
+
+.-text-medium {
+  font-size: 32px;
+}
+
+.-text-center {
+  text-align: center;
+}
+
+.-text-right {
+  text-align: right;
+}
